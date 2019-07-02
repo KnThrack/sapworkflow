@@ -1,0 +1,40 @@
+{
+    "id": "approvequote",
+    "name": "Approvequote",
+    "revision": "1.0",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "quote",
+            "type": "string",
+            "label": "Quote",
+            "readOnly": false,
+            "value": "${context.quoteID}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "monthlyrental",
+            "type": "float",
+            "label": "MonthlyRental",
+            "readOnly": false,
+            "value": "${context.monthlyRental}",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "decisions": [
+        {
+            "id": "approve",
+            "text": "Approve",
+            "decisionType": "positive"
+        },
+        {
+            "id": "reject",
+            "text": "Reject",
+            "decisionType": "negative"
+        }
+    ]
+}

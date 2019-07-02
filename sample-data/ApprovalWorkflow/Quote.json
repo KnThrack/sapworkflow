@@ -1,0 +1,8 @@
+{
+  "quoteID": 100000001,
+  "ProductID": 1,
+  "description": "my Quote",
+  "monthlyRental": 462.49,
+  "createDate": "1600-04-23T18:25:43.511Z",
+  "stockinfo" : 0
+}
